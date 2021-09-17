@@ -1,0 +1,17 @@
+{
+    "name": "guillermo",
+    "version": "1.0.0",
+    "description": "Test para probar amp urls de eldiario.es",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "ibanlopez",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
