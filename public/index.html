@@ -48,8 +48,8 @@
     <link rel="preload" as="font" href="/fonts/fa-brands-400.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/fonts/fa-regular-400.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/fonts/fa-solid-900.woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Sanomat-Bold.woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/fonts/Sanomat-Regular.woff2" crossorigin="anonymous">
+    <!-- <link rel="preload" as="font" href="/fonts/Sanomat-Bold.woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/Sanomat-Regular.woff2" crossorigin="anonymous"> -->
 
     <link rel="preload" href="/assets/img/svg/logos/eldiario-logo-2c.svg" as="image">
     <link rel="preload"
@@ -57,7 +57,7 @@
         as="image">
 
     <style amp-custom>
-        @font-face {
+        /* @font-face {
             font-family: Sanomat-Bold;
             font-weight: 400;
             font-style: normal;
@@ -95,7 +95,7 @@
             unicode-range: U+0025-00ff;
             src: local(Sanomat-RegularItalic),
                 url(/fonts/Sanomat-RegularItalic.woff2) format("woff2");
-        }
+        } */
 
         .fa,
         .fab,
@@ -1606,9 +1606,11 @@
 
         /*# sourceMappingURL=content-kicker.css.map*/
         .news-header .title {
-            font: normal 400 32px/1.16 Sanomat-Bold, Georgia;
-            letter-spacing: .4px;
-            color: #090909
+            /* font: normal 400 32px/1.16 Sanomat-Bold, Georgia; */
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 400;
+            font-size: 32px/1.16;
         }
 
         .news-header .title .content-kicker .text .title {
@@ -1979,7 +1981,11 @@
             flex: 1 1 0;
             padding: 15px 15px 20px;
             background-color: rgba(224, 220, 220, .44);
-            font: normal 400 20px/1.2 Sanomat-Regular, Georgia;
+            /* font: normal 400 20px/1.2 Sanomat-Regular, Georgia; */
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 400;
+            font-size: 20px/1.16;
             letter-spacing: .3px;
             color: #000
         }
@@ -2051,7 +2057,10 @@
         }
 
         .paywall .title {
-            font-family: Sanomat-Bold, Georgia;
+            /* font-family: Sanomat-Bold, Georgia; */
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 700;
             font-size: 24px;
             line-height: 1.17;
             letter-spacing: .18px;
@@ -2834,7 +2843,11 @@
         .news-partners-recruitment .recruitment-header .header-title {
             padding-top: 6.2px;
             margin-bottom: 0;
-            font: normal 400 22px/1.14 Sanomat-Bold, Georgia;
+            /* font: normal 400 22px/1.14 Sanomat-Bold, Georgia; */
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 400;
+            font-size: 22px/1.14;
             letter-spacing: .5;
             color: #004a7f
         }
@@ -3351,7 +3364,11 @@
 
         .cmp-footer .footer-info .footer-title {
             margin: 15px 0 20px;
-            font: 700 18px/1.28 Sanomat-Bold, Georgia;
+            /* font: 700 18px/1.28 Sanomat-Bold, Georgia; */
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+                Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+            font-weight: 700;
+            font-size: 12px/1.28;
             color: #000;
             letter-spacing: .3px
         }
