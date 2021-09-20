@@ -4,7 +4,7 @@
     "description": "Test para probar amp urls de eldiario.es",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "node index.js"
     },
     "author": "ibanlopez",
     "license": "ISC",
@@ -14,5 +14,8 @@
     },
     "devDependencies": {
         "nodemon": "^2.0.12"
+    },
+    "engines": {
+        "node": "14.x"
     }
 }
